@@ -17,7 +17,6 @@
       
       <xs:element minOccurs="1" maxOccurs="1" name="TrackingCategoryID" type="uniqueIdentifier" />
       <xs:element minOccurs="0" maxOccurs="1" name="Options" type="ArrayOfTrackingCategoryOption" />
-      <xs:element minOccurs="0" maxOccurs="1" name="Option" type="xs:string" />
     
     </xs:all>
     <xs:attribute name="status" type="entityValidationStatus" use="optional" />
