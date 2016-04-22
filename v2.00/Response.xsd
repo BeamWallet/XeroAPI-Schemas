@@ -65,6 +65,7 @@
       <xs:element minOccurs="0" maxOccurs="1" name="ExpenseClaims" type="ArrayOfExpenseClaim" />
       <xs:element minOccurs="0" maxOccurs="1" name="RepeatingInvoices" type="ArrayOfRepeatingInvoice" />
       <xs:element minOccurs="0" maxOccurs="1" name="BankTransfers" type="ArrayOfBankTransfer" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OnlineInvoices" type="ArrayOfOnlineInvoice" />
       
     </xs:sequence>
   </xs:complexType>
